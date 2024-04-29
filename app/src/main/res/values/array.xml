@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estados_lecturas">
+        <item>Todos</item>
+        <item>Faltantes</item>
+        <item>Pendientes subida</item>
+        <item>En sistema</item>
+    </string-array>
+</resources>

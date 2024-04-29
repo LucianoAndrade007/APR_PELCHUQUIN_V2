@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">APR</string>
+    <string name="menu_uno">Lecturas</string>
+    <string name="menu_dos">Suspensiónes</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="txt_foto">Foto:</string>
+    <string name="txt_comentario">Comentario:</string>
+    <string name="btn_ver">Ver</string>
+    <string name="check_ok">Realizado</string>
+
+    <string name="txt_inicio">Inicio:</string>
+    <string name="txt_termino">Termino:</string>
+    <string name="txt_nombre">Nombre:</string>
+    <string name="txt_direccion">Dir:</string>
+    <string name="txt_codigo">Código</string>
+    <string name="txt_verLecturas">Ver lecturas: </string>
+    <string name="txt_verLecturasTomadas">Ver lecturas tomadas</string>
+    <string name="txt_lecturasTitulo">LECTURAS</string>
+    <string name="txt_notaBorrar">(*)Mantener presionado el registro a eliminar.</string>
+    <string name="txt_controlServicio">CONTROL SERVICIO</string>
+    <string name="txt_mainBoton">INICIO</string>
+    <string name="txt_LinkMain">Desarrollado por SIASUR.</string>
+    <string name="txt_agregarLectura">AGREGAR LECTURA</string>
+    <string name="txt_reporteProblema">REPORTE DE PROBLEMAS</string>
+    <string name="txt_mesesImpagos">Meses Impagos:</string>
+    <string name="txt_noContacto">N° Contacto:</string>
+    <string name="txt_tipoPorblema">Problema:</string>
+    <string name="txt_tituloLecturas">Lecturas realizadas:</string>
+    <string name="tx_realizadas">Realizadas:</string>
+    <string name="tx_pendientes">Pendientes:</string>
+    <string name="txt_comentar">...</string>
+    <string name="txt_vacio"></string>
+    <string name="txt_usuario">Usuario:</string>
+    <string name="txt_usuarioLogin">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_add">Agregar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_sync">Sincronizar</string>
+    <string name="btn_down">Descargar</string>
+    <string name="txt_id">Medidor: </string>
+    <string name="txt_LecturaTitulo">LECTURAS</string>
+    <string name="txt_Lectura">Lectura:</string>
+    <string name="txt_Lecturas">Lecturas</string>
+    <string name="txt_Suspension">Suspender</string>
+    <string name="txt_Suspensiones">SUSPENSIONES</string>
+    <string name="txt_btnOpciones">OPCIONES</string>
+    <string name="txt_ControlServicioFloat">Control Servicio</string>
+    <string name="txt_Habilitacion">Habilitar</string>
+    <string name="txt_CalendarioActivity">CALENDARIO</string>
+    <string name="txt_docLecturas">Doc. Lecturas</string>
+    <string name="txt_btnBorrarData">Borrar Data</string>
+    <string name="txt_historiaDecLecturas">Se subira un documento con las lecturas tomadas en la aplicacion, solo se enviara el Id de usuario, Lectura y Fecha de cuando see añadio a la aplicación.</string>
+    <string name="txt_historiaBorrarData">Se eliminarán todos los registros encontrados actualmente en la aplicación.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calendario">CalendarioActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+</resources>
