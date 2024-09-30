@@ -9,13 +9,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="414dp"
+        android:layout_width="match_parent"
         android:layout_height="68dp"
         android:contentDescription=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo_comun_titulo" />
+        app:srcCompat="@drawable/fondo_comun_titulo"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/textView4"
@@ -31,9 +32,11 @@
 
     <LinearLayout
         android:id="@+id/LinearLayout"
-        android:layout_width="391dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +107,7 @@
                             <Button
                                 android:id="@+id/btn_buscar"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="54dp"
                                 android:layout_gravity="center"
                                 android:layout_marginHorizontal="3dp"
                                 android:contentDescription="@string/app_name"
@@ -165,49 +168,49 @@
                 </LinearLayout>
 
                 <LinearLayout
-                android:layout_width="315dp"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                    android:layout_width="315dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
 
-                <LinearLayout
-                    android:layout_width="209dp"
-                    android:layout_height="56dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="209dp"
+                        android:layout_height="56dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
 
-                    <TextView
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/txt_foto"
+                            android:textSize="24sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="28dp"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/txt_foto"
-                        android:textSize="24sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-                </LinearLayout>
+                        android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:id="@+id/ibtn_check_foto"
-                        android:layout_width="80dp"
-                        android:layout_height="50dp"
-                        android:background="@color/AzulCLaro"
-                        android:contentDescription="@string/app_name"
-                        android:onClick="onClick_tomaFoto"
-                        android:scaleType="fitCenter"
-                        android:visibility="visible"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ic_camera" />
+                        <ImageButton
+                            android:id="@+id/ibtn_check_foto"
+                            android:layout_width="80dp"
+                            android:layout_height="50dp"
+                            android:background="@color/AzulCLaro"
+                            android:contentDescription="@string/app_name"
+                            android:onClick="onClick_tomaFoto"
+                            android:scaleType="fitCenter"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_camera" />
+                    </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         EditUser = findViewById(R.id.txt_EditUser);
         txt_pass = findViewById(R.id.txt_EditPass);
@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-    public void GoToMenu(View view) {
+    public void onClick_login(View view) {
 
         String user = EditUser.getText().toString();
         String pass = txt_pass.getText().toString();

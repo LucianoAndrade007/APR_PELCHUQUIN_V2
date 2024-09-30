@@ -5,41 +5,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    tools:ignore="MissingDefaultResource">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/txt_vacio"
+        app:layout_constraintBottom_toTopOf="@id/txt_usuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="19:11"
+        app:srcCompat="@mipmap/componente"
+        android:scaleType="centerCrop" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_usuario"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/txt_usuarioLogin"
         app:endIconMode="clear_text"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:startIconDrawable="@drawable/usuario_circulo_icono"
-        tools:layout_editor_absoluteX="32dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:startIconDrawable="@drawable/usuario_circulo_icono">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt_EditUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp" />
-
+            android:textSize="@dimen/text_size_normal" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_password"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/txt_password"
         app:endIconMode="password_toggle"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginEnd="@dimen/margin_large"
         app:layout_constraintTop_toBottomOf="@+id/txt_usuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:startIconDrawable="@drawable/candado_icono">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -47,26 +60,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:textSize="24sp" />
-
+            android:textSize="@dimen/text_size_normal" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <Button
         android:id="@+id/imageButton6"
-        android:layout_width="241dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="8dp"
-        android:onClick="GoToMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:onClick="onClick_login"
         android:text="@string/txt_mainBoton"
         android:textAppearance="@style/Widget.MaterialComponents.Button"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="@dimen/text_size_large"
         app:backgroundTint="@color/AzulCLaro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_password" />
 
@@ -74,7 +84,7 @@
         android:id="@+id/tv_Link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/margin_large"
         android:clickable="true"
         android:focusable="true"
         android:onClick="GoLink"
@@ -84,16 +94,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="414dp"
-        android:layout_height="240dp"
-        android:contentDescription="@string/txt_vacio"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/componente" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

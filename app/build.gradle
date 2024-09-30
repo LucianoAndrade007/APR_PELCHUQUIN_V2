@@ -43,11 +43,11 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
 
     //envio de datos a api
-    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.android.volley:volley:1.2.1'
 
     //Spinner
     implementation 'com.github.MdFarhanRaja:SearchableSpinner:2.1'
-    compileOnly 'com.google.android.wearable:wearable:2.5.0'
+    compileOnly 'com.google.android.wearable:wearable:2.9.0'
 
 
 }
