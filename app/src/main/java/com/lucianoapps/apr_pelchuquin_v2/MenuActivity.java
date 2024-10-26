@@ -67,8 +67,8 @@ public class MenuActivity extends AppCompatActivity {
         lv_cantidadLecturas = findViewById(R.id.lv_cantidadLecturas);
         lv_ultimaDescarga = findViewById(R.id.lv_ultimaDescarga);
         progressBar = findViewById(R.id.progressBar);
-        btnLecturas = findViewById(R.id.imageButton6);
-        btnSuspensiones = findViewById(R.id.imageButton64);
+        btnLecturas = findViewById(R.id.button_lecturas);
+        btnSuspensiones = findViewById(R.id.button_suspensiones);
         btnDescargar = findViewById(R.id.btn_Descargar);
         btnSincronizar = findViewById(R.id.btn_Up);
 

@@ -41,10 +41,10 @@ public class VerLecturas extends AppCompatActivity implements SearchView.OnQuery
 
         DbLecturas dbUsuarios = new DbLecturas(VerLecturas.this);
 
-        //listaArrayContactos = new ArrayList<>();
+        listaArrayContactos = new ArrayList<>();
 
-        //adapter = new ListaUsuariosAdapter(dbUsuarios.mostrarUsuarios());
-        //listaContactos.setAdapter(adapter);
+        adapter = new ListaUsuariosAdapter(dbUsuarios.mostrarUsuarios());
+        listaContactos.setAdapter(adapter);
 
         if(savedInstanceState == null){
             Bundle extras = getIntent().getExtras();
